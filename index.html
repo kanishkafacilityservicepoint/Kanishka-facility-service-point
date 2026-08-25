@@ -3,96 +3,657 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Kanishka Facility Service Point</title>
-<meta name="description" content="Professional housekeeping and security guard services by Kanishka Facility Service Point, Chandrapura, Dugda, Bokaro.">
-<section id="about">
-  <div class="title">
-    <h2>About Us</h2>
-    <p>Kanishka Facility Service Point</p>
-  </div>
 
-  <div class="card">
-    <h3>Managing Director</h3>
-    <p><strong>Suman Kumari</strong></p>
-    <p>
-      Kanishka Facility Service Point provides professional
-      housekeeping and security guard services with reliable,
-      disciplined and responsible manpower.
-    </p>
-    <p>
-      Under the leadership of our Managing Director,
-      Ms.Suman Kumari, we focus on professional service,
-      safety, cleanliness and customer satisfaction.
-    </p>
-  </div>
-</section>
-*{-content:space-between;align-items:center;position:sticky;top:0;z-index:5}
-.logo{font-size:21px;font-weight:700}.nav a{color:white;text-decoration:none;margin-left:20px;font-size:14px}
-.hero{background:linear-gradient(135deg,#0b2d5c,#1769aa);color:white;padding:80px 7%;text-align:center}
-.hero h1{font-size:42px;margin:0 0 12px}.hero p{font-size:19px;max-width:700px;margin:0 auto 28px}
-.btn{display:inline-block;background:#f4b400;color:#111;text-decoration:none;padding:13px 22px;border-radius:7px;font-weight:700;margin:5px}
-.btn.whatsapp{background:#25d366;color:white}
-section{padding:55px 7%;max-width:1150px;margin:auto}.title{text-align:center;margin-bottom:30px}.title h2{font-size:30px;margin:0 0 8px;color:#0b2d5c}
-.cards{display:grid;grid-template-columns:repeat(auto-fit,minmax(250px,1fr));gap:20px}
-.card{background:white;padding:28px;border-radius:12px;box-shadow:0 5px 20px #0000000d}.card h3{color:#0b2d5c}
-.contact{background:#0b2d5c;color:white}.contact .title h2{color:white}
-.contact-box{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:18px}.contact-item{background:#ffffff12;padding:20px;border-radius:10px}
-footer{background:#071d3b;color:white;text-align:center;padding:20px;font-size:14px}
-@media(max-width:700px){header{display:block;text-align:center}.nav{margin-top:10px}.nav a{margin:0 7px}.hero{padding:60px 6%}.hero h1{font-size:32px}section{padding:45px 6%}}
+<title>Kanishka Facility Service Point | Housekeeping & Security Services in Bokaro</title>
+
+<meta name="description" content="Kanishka Facility Service Point provides professional housekeeping and security guard services in Chandrapura, Dugda, Bokaro, Jharkhand. Contact us for reliable facility management services.">
+
+<meta name="keywords" content="Kanishka Facility Service Point, housekeeping service Bokaro, security guard service Bokaro, facility management Chandrapura, housekeeping Dugda, security guard Dugda">
+
+<meta name="author" content="Kanishka Facility Service Point">
+
+<style>
+*{
+box-sizing:border-box;
+margin:0;
+padding:0;
+}
+
+html{
+scroll-behavior:smooth;
+}
+
+body{
+font-family:Arial,Helvetica,sans-serif;
+color:#172033;
+background:#f5f8fc;
+line-height:1.6;
+}
+
+header{
+background:#082b59;
+color:white;
+padding:15px 7%;
+display:flex;
+justify-content:space-between;
+align-items:center;
+position:sticky;
+top:0;
+z-index:1000;
+box-shadow:0 3px 15px rgba(0,0,0,.15);
+}
+
+.logo{
+font-size:20px;
+font-weight:800;
+}
+
+.nav a{
+color:white;
+text-decoration:none;
+margin-left:18px;
+font-size:14px;
+font-weight:600;
+}
+
+.nav a:hover{
+color:#ffc107;
+}
+
+.hero{
+background:linear-gradient(135deg,#082b59,#1267a8);
+color:white;
+padding:85px 7%;
+text-align:center;
+}
+
+.badge{
+display:inline-block;
+background:rgba(255,255,255,.15);
+border:1px solid rgba(255,255,255,.3);
+padding:7px 15px;
+border-radius:30px;
+font-size:14px;
+margin-bottom:18px;
+}
+
+.hero h1{
+font-size:44px;
+margin-bottom:14px;
+line-height:1.2;
+}
+
+.hero p{
+font-size:19px;
+max-width:760px;
+margin:0 auto 28px;
+}
+
+.btn{
+display:inline-block;
+background:#ffc107;
+color:#111;
+text-decoration:none;
+padding:13px 24px;
+border-radius:7px;
+font-weight:700;
+margin:5px;
+transition:.2s;
+}
+
+.btn:hover{
+transform:translateY(-2px);
+}
+
+.whatsapp{
+background:#25d366;
+color:white;
+}
+
+.dark{
+background:#082b59;
+color:white;
+}
+
+section{
+padding:60px 7%;
+max-width:1180px;
+margin:auto;
+}
+
+.title{
+text-align:center;
+margin-bottom:35px;
+}
+
+.title h2{
+font-size:31px;
+color:#082b59;
+margin-bottom:8px;
+}
+
+.title p{
+color:#687386;
+}
+
+.cards{
+display:grid;
+grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
+gap:22px;
+}
+
+.card{
+background:white;
+padding:28px;
+border-radius:13px;
+box-shadow:0 5px 22px rgba(0,0,0,.07);
+border:1px solid #edf0f5;
+}
+
+.card h3{
+color:#082b59;
+margin-bottom:10px;
+font-size:21px;
+}
+
+.card p{
+color:#596579;
+}
+
+.icon{
+font-size:36px;
+margin-bottom:10px;
+}
+
+.highlight{
+background:#eef6ff;
+border-radius:14px;
+padding:35px;
+}
+
+.director{
+background:white;
+padding:32px;
+border-radius:14px;
+box-shadow:0 5px 22px rgba(0,0,0,.07);
+max-width:700px;
+margin:auto;
+text-align:center;
+border-top:5px solid #ffc107;
+}
+
+.director h3{
+color:#082b59;
+font-size:27px;
+}
+
+.position{
+color:#1267a8;
+font-weight:700;
+font-size:17px;
+margin-bottom:15px;
+}
+
+.cta{
+text-align:center;
+padding:45px 20px;
+background:white;
+}
+
+.cta h2{
+color:#082b59;
+margin-bottom:8px;
+}
+
+.contact{
+background:#082b59;
+color:white;
+max-width:none;
+}
+
+.contact .title h2{
+color:white;
+}
+
+.contact .title p{
+color:#dce8f5;
+}
+
+.contact-box{
+max-width:1100px;
+margin:auto;
+display:grid;
+grid-template-columns:repeat(auto-fit,minmax(220px,1fr));
+gap:18px;
+}
+
+.contact-item{
+background:rgba(255,255,255,.08);
+padding:22px;
+border-radius:11px;
+}
+
+.contact-item strong{
+color:#ffc107;
+font-size:17px;
+}
+
+.contact-item a{
+color:white;
+text-decoration:none;
+}
+
+footer{
+background:#061b38;
+color:white;
+text-align:center;
+padding:22px;
+font-size:14px;
+}
+
+footer span{
+color:#ffc107;
+}
+
+@media(max-width:700px){
+
+header{
+display:block;
+text-align:center;
+padding:14px 5%;
+}
+
+.logo{
+font-size:17px;
+}
+
+.nav{
+margin-top:10px;
+}
+
+.nav a{
+margin:0 5px;
+font-size:12px;
+}
+
+.hero{
+padding:65px 6%;
+}
+
+.hero h1{
+font-size:32px;
+}
+
+.hero p{
+font-size:17px;
+}
+
+section{
+padding:48px 6%;
+}
+
+.title h2{
+font-size:27px;
+}
+
+.btn{
+padding:12px 18px;
+}
+
+}
 </style>
 </head>
-<body>
-<header>
-  <div class="logo">KANISHKA FACILITY SERVICE POINT</div>
-  <nav class="nav">
-    <a href="#about">About</a><a href="#services">Services</a><a href="#contact">Contact</a>
-  </nav>
-</header>
 
-<div class="hero">
-  <h1>Professional Facility Services</h1>
-  <p>Reliable housekeeping and security guard services for offices, commercial spaces, institutions and other establishments.</p>
-  <a class="btn" href="tel:+917070347601">Call Now</a>
-  <a class="btn whatsapp" href="https://wa.me/917070347601">WhatsApp</a>
+<body>
+
+<header>
+
+<div class="logo">
+KANISHKA FACILITY SERVICE POINT
 </div>
 
+<nav class="nav">
+<a href="#about">About</a>
+<a href="#services">Services</a>
+<a href="#director">Director</a>
+<a href="#contact">Contact</a>
+</nav>
+
+</header>
+
+
+<!-- HERO SECTION -->
+
+<div class="hero">
+
+<div class="badge">
+Professional Facility Management Services
+</div>
+
+<h1>
+Reliable Housekeeping & Security Services
+</h1>
+
+<p>
+Professional manpower solutions for offices, commercial spaces,
+institutions and other establishments in Bokaro and nearby areas.
+</p>
+
+<a class="btn" href="tel:+917070347601">
+📞 Call Now
+</a>
+
+<a class="btn whatsapp" href="https://wa.me/917070347601">
+💬 WhatsApp
+</a>
+
+</div>
+
+
+<!-- ABOUT SECTION -->
+
 <section id="about">
-  <div class="title"><h2>About Us</h2><p>Kanishka Facility Service Point</p></div>
-  <div class="card">
-    <p>We provide dependable facility support with a focus on cleanliness, discipline, professional presentation and responsive service. Our goal is to help clients maintain a clean, safe and well-managed workplace.</p>
-  </div>
+
+<div class="title">
+
+<h2>About Us</h2>
+
+<p>Kanishka Facility Service Point</p>
+
+</div>
+
+<div class="highlight">
+
+<p>
+<strong>Kanishka Facility Service Point</strong> provides dependable
+housekeeping and security guard services for offices, commercial
+establishments, institutions and other workplaces.
+</p>
+
+<br>
+
+<p>
+Our focus is on cleanliness, discipline, professional conduct,
+responsible manpower and responsive service. We aim to provide
+reliable facility support according to the specific requirements
+of our clients.
+</p>
+
+</div>
+
 </section>
+
+
+<!-- SERVICES SECTION -->
 
 <section id="services">
-  <div class="title"><h2>Our Services</h2><p>Professional manpower for your facility needs</p></div>
-  <div class="cards">
-    <div class="card"><h3>Housekeeping Service</h3><p>Professional housekeeping manpower for offices, commercial establishments, institutions and other workplaces, including regular cleaning and facility upkeep.</p></div>
-    <div class="card"><h3>Security Guard Service</h3><p>Responsible security personnel to support access control, basic site security, visitor management and workplace discipline.</p></div>
-  </div>
+
+<div class="title">
+
+<h2>Our Services</h2>
+
+<p>Professional manpower for your facility requirements</p>
+
+</div>
+
+<div class="cards">
+
+<div class="card">
+
+<div class="icon">🧹</div>
+
+<h3>Housekeeping Service</h3>
+
+<p>
+Professional housekeeping manpower for offices, commercial
+establishments, institutions and workplaces, including regular
+cleaning, hygiene support and facility upkeep.
+</p>
+
+<br>
+
+<a class="btn dark"
+href="https://wa.me/917070347601?text=Hello%20Kanishka%20Facility%20Service%20Point,%20I%20need%20housekeeping%20service.">
+Enquire Now
+</a>
+
+</div>
+
+
+<div class="card">
+
+<div class="icon">🛡️</div>
+
+<h3>Security Guard Service</h3>
+
+<p>
+Responsible security personnel to support access control,
+visitor management, basic site security and workplace discipline.
+</p>
+
+<br>
+
+<a class="btn dark"
+href="https://wa.me/917070347601?text=Hello%20Kanishka%20Facility%20Service%20Point,%20I%20need%20security%20guard%20service.">
+Enquire Now
+</a>
+
+</div>
+
+</div>
+
 </section>
+
+
+<!-- WHY CHOOSE US -->
 
 <section>
-  <div class="title"><h2>Why Choose Us?</h2></div>
-  <div class="cards">
-    <div class="card"><h3>Reliable Staff</h3><p>We focus on responsible and disciplined service personnel.</p></div>
-    <div class="card"><h3>Professional Service</h3><p>Clear communication and professional conduct are our priorities.</p></div>
-    <div class="card"><h3>Flexible Requirements</h3><p>Service arrangements can be discussed according to your site and manpower requirements.</p></div>
-  </div>
+
+<div class="title">
+
+<h2>Why Choose Us?</h2>
+
+<p>Reliable and professional facility support</p>
+
+</div>
+
+<div class="cards">
+
+<div class="card">
+
+<h3>✓ Reliable Staff</h3>
+
+<p>
+We focus on responsible and disciplined service personnel.
+</p>
+
+</div>
+
+
+<div class="card">
+
+<h3>✓ Professional Service</h3>
+
+<p>
+Clear communication and professional conduct are our priorities.
+</p>
+
+</div>
+
+
+<div class="card">
+
+<h3>✓ Flexible Requirements</h3>
+
+<p>
+Service arrangements can be discussed according to your site
+and manpower requirements.
+</p>
+
+</div>
+
+
+<div class="card">
+
+<h3>✓ Client Focused</h3>
+
+<p>
+We aim to build long-term professional relationships through
+dependable service.
+</p>
+
+</div>
+
+</div>
+
 </section>
+
+
+<!-- DIRECTOR SECTION -->
+
+<section id="director">
+
+<div class="title">
+
+<h2>Our Management</h2>
+
+<p>Leadership behind Kanishka Facility Service Point</p>
+
+</div>
+
+<div class="director">
+
+<h3>Suman Kumari</h3>
+
+<div class="position">
+Managing Director
+</div>
+
+<p>
+Kanishka Facility Service Point is committed to providing
+dependable housekeeping and security manpower solutions with
+professional service and client-focused support.
+</p>
+
+</div>
+
+</section>
+
+
+<!-- ENQUIRY SECTION -->
+
+<div class="cta">
+
+<h2>
+Need Housekeeping or Security Staff?
+</h2>
+
+<p>
+Contact us today to discuss your manpower requirement.
+</p>
+
+<br>
+
+<a class="btn dark" href="tel:+917070347601">
+📞 Call for Enquiry
+</a>
+
+<a class="btn whatsapp" href="https://wa.me/917070347601">
+💬 Chat on WhatsApp
+</a>
+
+</div>
+
+
+<!-- CONTACT SECTION -->
 
 <section class="contact" id="contact">
-  <div class="title"><h2>Contact Us</h2><p>Discuss your housekeeping or security requirement with us.</p></div>
-  <div class="contact-box">
-    <div class="contact-item"><strong>Phone</strong><br>7070347601<br>6204252974</div>
-    <div class="contact-item"><strong>Email</strong><br>kanishkafacilityservicepoint@gmail.com</div>
-    <div class="contact-item"><strong>Office</strong><br>H.No. 332A, Chandrapura, Dugda, Bokaro</div>
-  </div>
-  <div style="text-align:center;margin-top:25px">
-    <a class="btn" href="tel:+917070347601">Call for Enquiry</a>
-    <a class="btn whatsapp" href="https://wa.me/917070347601">Chat on WhatsApp</a>
-  </div>
+
+<div class="title">
+
+<h2>Contact Us</h2>
+
+<p>
+Discuss your housekeeping or security requirement with us.
+</p>
+
+</div>
+
+<div class="contact-box">
+
+
+<div class="contact-item">
+
+<strong>📞 Phone</strong>
+
+<br><br>
+
+<a href="tel:+917070347601">
+7070347601
+</a>
+
+<br>
+
+<a href="tel:+916204252974">
+6204252974
+</a>
+
+</div>
+
+
+<div class="contact-item">
+
+<strong>✉️ Email</strong>
+
+<br><br>
+
+<a href="mailto:kanishkafacilityservicepoint@gmail.com">
+kanishkafacilityservicepoint@gmail.com
+</a>
+
+</div>
+
+
+<div class="contact-item">
+
+<strong>📍 Office Address</strong>
+
+<br><br>
+
+H.No. 332A,<br>
+Chandrapura, Dugda,<br>
+Bokaro, Jharkhand
+
+</div>
+
+
+</div>
+
+<div style="text-align:center;margin-top:30px">
+
+<a class="btn" href="tel:+917070347601">
+📞 Call Now
+</a>
+
+<a class="btn whatsapp" href="https://wa.me/917070347601">
+💬 WhatsApp Now
+</a>
+
+</div>
+
 </section>
 
-<footer>© 2026 Kanishka Facility Service Point. All Rights Reserved.</footer>
+
+<footer>
+
+© 2026 <span>Kanishka Facility Service Point</span>.
+All Rights Reserved.
+
+<br>
+
+Housekeeping & Security Guard Services | Bokaro, Jharkhand
+
+</footer>
+
 </body>
 </html>
